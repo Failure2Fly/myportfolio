@@ -1,13 +1,6 @@
 import React, { Component } from 'react'
 
 class Navbar extends Component {
-    constructor(props) {
-        super(props)
-
-
-    }
-
-
   render() {
     return <div className="navbar-fixed">
     <nav>
@@ -32,10 +25,6 @@ class Navbar extends Component {
     
   }
 }
-
-//  $( document ).ready(function(){
-//      $(".button-collapse").sideNav()
-//  })
 
 
 export default Navbar;

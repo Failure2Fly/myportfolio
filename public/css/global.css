@@ -1,1 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
 
+/*NAVBAR*/
+.nav-wrapper {
+  background-color: #62C370;
+}
+.brand-logo {
+  margin-left: 15px;
+}
+
+/*SKILLS*/
+.hero-skills {
+  height: 500px;
+  text-align: center;
+}
+.navbar-picture {
+  width: 210px;
+  border-radius: 50%;
+  justify-content: center;
+}
+.skills {
+  background-image: url("https://unsplash.it/1700/550?image=759");
+  background-size: cover;
+  margin-bottom: 0;
+}
+.skills-title {
+  padding-bottom: 20px;
+  font-size: 48px;
+  font-family: 'Permanent Marker', cursive;
+  justify-content: center;
+  margin-top: 100px;
+}
+.skill {
+  justify-content: center;
+  padding: 5px 8px 5px 8px;
+}
+
+/*ABOUT*/
+.about-me {
+  padding: 30px;
+  height: 500px;
+}
+.about-background {
+  background-image: url("/img/guitar-amp.png");
+  background-size: cover;
+  margin: 0;
+}
+.about-pic {
+  margin-top: 120px;
+}
+.about-title {
+  margin-top: 220px;
+}
+.about-row-one {
+  margin-left: 15px;
+}
+.about-row-two {
+  margin-left: 15px;
+}
+.hero-about {
+  height: 100vh;
+}
+.profile-pic {
+  width: 300px;
+}
+.subtitle {
+  color: black;
+  font-size: 20px;
+}
+
+/*WORK*/
+
+
+/*CONTACT*/
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+  /*SKILLS*/
+  .skills-title {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  .hero-skills {
+    height: 500px;
+  }
+  .about-pic {
+    margin-top: 40px;
+  }
+  .about-title {
+    margin-top: 100px;
+  }
+  /*ABOUT*/
+  .profile-pic {
+    width: 150px;
+  }
+}

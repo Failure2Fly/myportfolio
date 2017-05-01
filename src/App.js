@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
+// import $ from 'jquery'
 import Navbar from './Navbar'
 import Skills from './Skills'
-import Work from './Work'
 import About from './About'
-import Contact from './Contact'
+// import Work from './Work'
+// import Contact from './Contact'
 
 class App extends Component {
   render() {
     return (
       <div>
       <Navbar />
+      <Skills />
+      <About />
       </div>
     )
   }
