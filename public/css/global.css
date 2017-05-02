@@ -76,7 +76,7 @@ img {
   margin-left: 15px;
 }
 .hero-about {
-  height: 100vh;
+  height: 110vh;
 }
 .profile-pic {
   width: 300px;
@@ -84,11 +84,10 @@ img {
 .about-me{
   color: black;
   font-size: 24px;
-  /*font-family: 'Love Ya Like A Sister', cursive;*/
-  /*font-family: 'Bungee Inline', cursive;*/
-  /*font-family: 'Permanent Marker', cursive;*/
-  font-family: 'Bad Script', cursive;
-  /*font-family: 'Catamaran', sans-serif;*/
+  font-family: 'Bad Script', cursive; 
+}
+.about-me-text {
+  line-height: 140%;
 }
 
 /*WORK*/
@@ -145,14 +144,26 @@ img {
   /*opacity: 0.7;*/
   /*opacity: 0.4;*/
 }
-.contact-form {
+.contact-info {
   background-color: white;
-  margin-right: 5px;
   margin-top: 80px;
-  opacity: 0.7;
+  /*margin: 10px 10px 10px 10px;*/
+  opacity: 0.9;
   height: 600px;
 }
-.input-field {
+.contact-form {
+  background-color: white;
+  margin-top: 80px;
+  /*margin-left: 10px;*/
+  opacity: 0.9;
+  height: 600px;
+}
+.contact-title {
+  font-size: 48px;
+  font-family: 'Finger Paint', cursive;
+  text-align: center;
+}
+.form-input {
   padding: 30px 0px 30px 0px;
 }
 .form-submit-button {
@@ -170,6 +181,9 @@ img {
     height: 500px;
   }
   /*ABOUT*/
+  .about-background {
+    height: 800px;
+  }
   .profile-pic {
     width: 150px;
   }
@@ -197,11 +211,16 @@ img {
   }
   /*CONTACT*/
   .contact-background {
-    height: 400px;
+    height: 1000px;
+    /*background: cover;*/
+  }
+  .contact-info {
+    margin-top: 40px;
+    height: 300px;
   }
   .contact-form {
-    margin-top: 30px;
-    height: 300px;
+    margin-top: 40px;
+    height: 600px;
   } 
   .form-submit-button {
     text-align: center;
