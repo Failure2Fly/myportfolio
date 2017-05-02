@@ -3,19 +3,19 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     return <div>
-    <a name="skills" />
+    <a name="skills"></a>
     <div className="row skills">
         <div className="col s12">
             <div className="hero-skills">
                 <h1 className="center-align skills-title">Front-End Engineer</h1>
                 <img className="navbar-picture" src="/img/DevinKorea.jpg" /> 
-            <h4 className="center-align subtitle">
+            <h4 className="center-align knowledge">
                 <span className="skill">HTML</span>
                 <span className="skill">CSS</span>
                 <span className="skill">Bootstrap</span>
                 <span className="skill">JavaScript</span>
             </h4>
-            <h4 className="center-align subtitle skills-two">
+            <h4 className="center-align knowledge skills-two">
                 <span className="skill">React</span>
                 <span className="skill">Node</span>
                 <span className="skill">Github</span>

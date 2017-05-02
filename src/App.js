@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Skills from './Skills'
 import About from './About'
-// import Work from './Work'
-// import Contact from './Contact'
+import Work from './Work'
+import Contact from './Contact'
 
 class App extends Component {
   render() {
@@ -13,6 +13,8 @@ class App extends Component {
       <Navbar />
       <Skills />
       <About />
+      <Work />
+      <Contact />
       </div>
     )
   }

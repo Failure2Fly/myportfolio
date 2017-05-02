@@ -1,3 +1,10 @@
+/*font-family: 'Love Ya Like A Sister', cursive;*/
+/*font-family: 'Bungee Inline', cursive;*/
+/*font-family: 'Permanent Marker', cursive;*/
+/*font-family: 'Bad Script', cursive;*/
+/*font-family: 'Catamaran', sans-serif;*/
+/*font-family: 'Finger Paint', cursive;*/
+
 * {
   box-sizing: border-box;
 }
@@ -11,6 +18,7 @@ img {
 }
 .brand-logo {
   margin-left: 15px;
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 
 /*SKILLS*/
@@ -31,20 +39,24 @@ img {
 .skills-title {
   padding-bottom: 20px;
   font-size: 48px;
-  font-family: 'Permanent Marker', cursive;
-  justify-content: center;
+  font-family: 'Finger Paint', cursive;
+  text-align: center;
   margin-top: 100px;
 }
 .skill {
   justify-content: center;
   padding: 5px 8px 5px 8px;
 }
+.knowledge {
+  color: black;
+  font-size: 20px;
+}
 
 /*ABOUT*/
-.about-me {
+/*.about-me {
   padding: 30px;
   height: 500px;
-}
+}*/
 .about-background {
   background-image: url("/img/guitar-amp.png");
   background-size: cover;
@@ -54,7 +66,8 @@ img {
   margin-top: 120px;
 }
 .about-title {
-  margin-top: 220px;
+  margin-top: 200px;
+  font-family: 'Finger Paint', cursive;
 }
 .about-row-one {
   margin-left: 15px;
@@ -68,15 +81,83 @@ img {
 .profile-pic {
   width: 300px;
 }
-.subtitle {
+.about-me{
   color: black;
-  font-size: 20px;
+  font-size: 24px;
+  /*font-family: 'Love Ya Like A Sister', cursive;*/
+  /*font-family: 'Bungee Inline', cursive;*/
+  /*font-family: 'Permanent Marker', cursive;*/
+  font-family: 'Bad Script', cursive;
+  /*font-family: 'Catamaran', sans-serif;*/
 }
 
 /*WORK*/
+.chirps-background {
+  margin-top: 20px;
+  text-align: center;
+}
+.taradiddle-background {
+  margin-top: 40px;
+  text-align: center;
+}
+.notes-background {
+  margin-top: 20px;
+  text-align: center;
+}
+.work-col {
+  background-color: #DE6449;
+  color: white;
+}
+.work-title {
+  font-size: 32px;
+  font-family: 'Finger Paint', cursive;
+  text-align: center;
+}
+.what-was-used {
+  margin-top: 50px;
+  font-size: 20px;
+}
+.about-project {
+  margin-top: 60px;
+  font-size: 28px;
+  font-family: 'Catamaran', sans-serif;
+}
+/*.samples-pic {
 
+}*/
+#samplesPic:hover   {
+  top: 65px; 
+  left: 35px;
+  height: 95%; 
+  width: 95%; 
+  background-size: cover; 
+  position: fixed;
+  z-index: 9999999999; 
+  /*transition: 0.7s ease;*/
+}
 
 /*CONTACT*/
+.contact-background {
+  background-image: url("/img/carl-heyerdahl-181868.jpg");
+  background-size: cover;
+  color: black;
+  height: 800px;
+  /*opacity: 0.7;*/
+  /*opacity: 0.4;*/
+}
+.contact-form {
+  background-color: white;
+  margin-right: 5px;
+  margin-top: 80px;
+  opacity: 0.7;
+  height: 600px;
+}
+.input-field {
+  padding: 30px 0px 30px 0px;
+}
+.form-submit-button {
+  text-align: center;
+}
 
 /*MOBILE*/
 @media screen and (max-width: 360px) {
@@ -88,14 +169,47 @@ img {
   .hero-skills {
     height: 500px;
   }
+  /*ABOUT*/
+  .profile-pic {
+    width: 150px;
+  }
   .about-pic {
     margin-top: 40px;
   }
   .about-title {
     margin-top: 100px;
   }
+  .title-about {
+    font-size: 38px;
+  }
+  /*WORK*/
+  .chirps-background {
+    border-bottom: solid;
+    border-color: black;
+  }
+  .taradiddle-background {
+    border-bottom: solid;
+    border-color: black;
+  }
+  .notes-background {
+    border-bottom: solid;
+    border-color: black;
+  }
+  /*CONTACT*/
+  .contact-background {
+    height: 400px;
+  }
+  .contact-form {
+    margin-top: 30px;
+    height: 300px;
+  } 
+  .form-submit-button {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
   /*ABOUT*/
-  .profile-pic {
-    width: 150px;
+  .hero-about {
+    height: 110vh;
   }
 }
