@@ -207,6 +207,9 @@ img {
   .hero-skills {
     height: 500px;
   }
+  .knowledge {
+    font-size: 18px;
+  }
 
   /*ABOUT*/
   .about-background {
