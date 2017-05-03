@@ -186,11 +186,11 @@ img {
   color: #26a69a
 }
 .fa-github {
-  margin-left: 30px;
+  margin-left: 80px;
   color: black;
 }
 .fa-linkedin-square {
-  margin-left: 30px;
+  margin-left: 80px;
   color: black;
 }
 
@@ -242,7 +242,7 @@ img {
   }
   .contact-info {
     margin-top: 40px;
-    height: 550px;
+    height: 450px;
   }
   .contact-subtitle {
     margin-top: 30px;
@@ -255,13 +255,19 @@ img {
   }
   .contact-form {
     margin-top: 80px;
-    height: 600px;
+    height: 650px;
   } 
   .form-submit-button {
     text-align: center;
   }
-  .form-input {
-
+  .fa-github {
+  margin-left: 50px;
+  }
+  .fa-linkedin-square {
+    margin-left: 50px;
+  }
+  .github-linkedIn-links {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 600px) {
