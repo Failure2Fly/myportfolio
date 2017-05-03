@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://failure2fly.github.io/portfolio/",
   "dependencies": {
     "jquery": "3.2.1",
