@@ -151,6 +151,9 @@ img {
   opacity: 0.9;
   height: 600px;
 }
+.info {
+    margin-left: 40px;
+  }
 .contact-form {
   background-color: white;
   margin-top: 80px;
@@ -158,17 +161,41 @@ img {
   opacity: 0.9;
   height: 600px;
 }
+.contact-collapsible {
+  margin-top: 60px;
+}
 .contact-title {
   font-size: 48px;
   font-family: 'Finger Paint', cursive;
   text-align: center;
 }
+.contact-subtitle {
+  font-size: 26px;
+  margin-top: 60px;
+}
 .form-input {
-  padding: 30px 0px 30px 0px;
+  padding: 50px 0px 30px 0px;
 }
 .form-submit-button {
   text-align: center;
 }
+.github-linkedIn-links {
+  margin-top: 60px;
+}
+.icon {
+  color: #26a69a
+}
+.fa-github {
+  margin-left: 30px;
+  color: black;
+}
+.fa-linkedin-square {
+  margin-left: 30px;
+  color: black;
+}
+
+
+
 
 /*MOBILE*/
 @media screen and (max-width: 360px) {
@@ -180,6 +207,7 @@ img {
   .hero-skills {
     height: 500px;
   }
+
   /*ABOUT*/
   .about-background {
     height: 800px;
@@ -196,6 +224,7 @@ img {
   .title-about {
     font-size: 38px;
   }
+
   /*WORK*/
   .chirps-background {
     border-bottom: solid;
@@ -205,25 +234,34 @@ img {
     border-bottom: solid;
     border-color: black;
   }
-  .notes-background {
-    border-bottom: solid;
-    border-color: black;
-  }
+
   /*CONTACT*/
   .contact-background {
-    height: 1000px;
+    height: 1300px;
     /*background: cover;*/
   }
   .contact-info {
     margin-top: 40px;
-    height: 300px;
+    height: 550px;
+  }
+  .contact-subtitle {
+    margin-top: 30px;
+  }
+  .contact-collapsible {
+    margin-top: 30px;
+  }
+  .info {
+    margin-left: 40px;
   }
   .contact-form {
-    margin-top: 40px;
+    margin-top: 80px;
     height: 600px;
   } 
   .form-submit-button {
     text-align: center;
+  }
+  .form-input {
+
   }
 }
 @media screen and (max-width: 600px) {

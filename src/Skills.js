@@ -12,13 +12,13 @@ class Skills extends Component {
             <h4 className="center-align knowledge">
                 <span className="skill">HTML</span>
                 <span className="skill">CSS</span>
-                <span className="skill">Bootstrap</span>
                 <span className="skill">JavaScript</span>
+                <span className="skill">Github</span>
+                <span className="skill">React</span>
             </h4>
             <h4 className="center-align knowledge skills-two">
-                <span className="skill">React</span>
+                <span className="skill">Responsive-Design</span>
                 <span className="skill">Node</span>
-                <span className="skill">Github</span>
                 <span className="skill">Jquery</span>
                 <span className="skill">SQL</span>
             </h4>

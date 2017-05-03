@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import $ from 'jquery'
+import $ from 'jquery'
 import Navbar from './Navbar'
 import Skills from './Skills'
 import About from './About'
