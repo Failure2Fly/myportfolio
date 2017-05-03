@@ -8,7 +8,7 @@ class Skills extends Component {
         <div className="col s12">
             <div className="hero-skills">
                 <h1 className="center-align skills-title">Front-End Engineer</h1>
-                <img className="navbar-picture" src="../img/DevinKorea.jpg" /> 
+                <img className="navbar-picture" src="img/DevinKorea.jpg" /> 
             <h4 className="center-align knowledge">
                 <span className="skill">HTML</span>
                 <span className="skill">CSS</span>

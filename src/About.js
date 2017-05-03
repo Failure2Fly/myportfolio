@@ -8,7 +8,7 @@ class About extends Component {
     <div className="hero-about">
         <div className="row">
             <div className="col s6 m3 about-pic">
-                <img className="profile-pic" src="../img/DevinSimpson.jpg" />
+                <img className="profile-pic" src="img/DevinSimpson.jpg" />
             </div>
             <div className="col s6 m3 about-title">
                 <h1 className="title-about">About</h1>
