@@ -58,7 +58,7 @@ img {
   height: 500px;
 }*/
 .about-background {
-  background-image: url("img/guitar-amp.png");
+  background-image: url("../img/guitar-amp.png");
   background-size: cover;
   margin: 0;
 }
@@ -137,7 +137,7 @@ img {
 
 /*CONTACT*/
 .contact-background {
-  background-image: url("img/carl-heyerdahl-181868.jpg");
+  background-image: url("../img/carl-heyerdahl-181868.jpg");
   background-size: cover;
   color: black;
   height: 800px;
