@@ -18,7 +18,7 @@ class Contact extends Component {
                 <ul className="collapsible contact-collapsible" data-collapsible="expandable">
                   <li>
                     <div className="collapsible-header">
-                    <i className="material-icons">stay_primary_portrait</i>Phone<span className="info">(260)-348-6951</span>
+                    <i className="material-icons">call</i>Phone<span className="info">(260)-348-6951</span>
                     </div>
                       <div className="collapsible-body"><span>(260)-348-6951</span></div>
                   </li>

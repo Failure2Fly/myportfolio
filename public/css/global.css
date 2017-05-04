@@ -193,12 +193,16 @@ img {
   margin-left: 80px;
   color: black;
 }
+.contact-icon {
+  margin-top: 20px;
+  width: 30px;
+}
 
 
 
 
 /*MOBILE*/
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   /*SKILLS*/
   .skills-title {
     font-size: 32px;
