@@ -202,7 +202,7 @@ img {
 
 
 /*MOBILE*/
-@media screen and (min-width: 361px) {
+@media screen and (max-width: 399px) {
   /*SKILLS*/
   .skills-title {
     font-size: 32px;
