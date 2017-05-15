@@ -32,7 +32,8 @@ img {
   justify-content: center;
 }
 .skills {
-  background-image: url("https://unsplash.it/1700/550?image=759");
+  background-image: url("../img/dana-marin-152965.jpg");
+  background-position-y: -180px; 
   background-size: cover;
   margin-bottom: 0;
 }
@@ -204,6 +205,9 @@ img {
 /*MOBILE*/
 @media screen and (max-width: 399px) {
   /*SKILLS*/
+  .skills {
+    background-position-y: 0px;
+  }
   .skills-title {
     font-size: 32px;
     margin-top: 50px;
