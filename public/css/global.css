@@ -127,9 +127,9 @@ img {
 }*/
 #samplesPic:hover   {
   top: 65px; 
-  left: 35px;
-  height: 95%; 
-  width: 95%; 
+  left: 65px;
+  height: 85%; 
+  width: 90%; 
   background-size: cover; 
   position: fixed;
   z-index: 9999999999; 
