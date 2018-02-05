@@ -24,7 +24,7 @@ class Contact extends Component {
                   </li>
                   <li>
                     <div className="collapsible-header">
-                    <i className="material-icons">description</i>Resume<span className="info"><a className="icon" href="https://docs.google.com/document/d/1kZzss5B5N4KNEUlYMmN5Dw_wvTacTFKmUX00AaJ7UmU/edit?usp=sharing" target="_blank">Click Here</a></span>
+                <i className="material-icons">description</i>Resume<span className="info"><a className="icon" href="https://uptowork.com/mycv/devinblankenship" target="_blank">Click Here</a></span>
                     </div>
                       <div className="collapsible-body"><span></span></div>
                   </li>
